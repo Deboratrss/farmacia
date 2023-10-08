@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drogria Assunçao</title>
+    <link rel="stylesheet" href="./produtos.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/DrogariaAssuncao 1.svg" alt="logo">
+        </div>
+        <form>
+            <input type="text" id="buscar" placeholder="O que está procurando hoje?">
+            <img src="../assets/Button.svg" alt="buscar">
+        </form>
+        <div class="icons">
+            <a href="../ImplemetacaoFutura/lojas.html" target="_blanck">
+                <p>Nossas Lojas</p>
+                <img src="../assets/icons8-loja-16 (1).svg" alt="loja">
+            </a>
+            <a href="../ImplemetacaoFutura/cadastro.html" target="_blanck">
+                <p>Entre ou \a cadastre-se</p>
+                <img src="../assets/icons8-pessoa-16.svg" alt="cadastro">
+            </a>
+            <a href="../ImplemetacaoFutura/carrinho.html" target="_blanck">
+                <img src="../assets/icons8-carrinho-16.svg" alt="carrinho">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="butoes">
+            <div class="info">
+                <button onclick="home()">
+                    <img src="../assets/icons8-estrutural-16.svg" alt="logo-home">
+                </button >
+                <p><b>Home</b></p>
+            </div>
+            <div class="info">
+                <button onclick="somos()">
+                    <img src="../assets/icons8-tall-person-16.svg" alt="logo-sobre">
+                </button>
+                <p><b>Quem Somos</b></p>
+            </div>
+            <div class="info"> 
+                <button onclick="sobre()">
+                    <img src="../assets/icons8-loja-16.svg" alt="logo-loja">
+                </button>
+                <p><b>Sobre</b></p>
+            </div>
+            <div class="info">
+                <a href="https://api.whatsapp.com/send?phone=556198861487&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noreferrer">
+                    <img src="../assets/icons8-telefone-desligado-16.svg" alt="logo-contato">
+                </a>
+                <p><b>Contato</b></p>
+            </div>
+        </div>
+        <h2 id="produtos-title">PRODUTOS</h2>
+        <div class="informacao">
+            <p><i><strong id="produtos-encontrados">PRODUTOS ENCONTRADOS</strong></i></p>
+            <div class="paginas">
+                <a href="?pagina=1" >1</a>
+                <a href="?pagina=2" >2</a>
+                <a href="?pagina=3" >3</a>
+                <a href="?pagina=4">4</a>
+                <a href="?pagina=11">11</a>
+                <button>Proximo</button>
+            </div>
+            <div class="ordem">
+                <p><b>Ordenar por:</b></p>
+                <select id="ordem">
+                    <option value="1">Mais Vendidos</option>
+                    <option value="2">Menos Vendidos</option>
+                </select>  
+            </div>
+        </div>
+        <div class="produtos-container">
+            <div id="catalogo"></div>
+            <div id="produtos"></div>
+        </div>
+        <div class="cadastro">
+            <div class="text">
+                <h2>Cadastre-se</h2>
+                <p>
+                    para receber as melhores ofertas
+                    e super descontos
+                </p>
+            </div>
+            <img src="../assets/cadastre-se-img.jpg" alt="mulher usando o celular">
+            <div class="formulario">
+                <form>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <button>cadastrar</button>
+                </form>
+                <p>leia os termos de uso e política de privacidade</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="./produtos.js"></script>
+    <script>
+        function home(){
+            window.location.replace("http://127.0.0.1:5500/Empresa/empresa.html")
+        }
+
+        function sobre(){
+            window.location.replace("http://127.0.0.1:5500/Empresa/empresa.html#sobre")
+        }
+
+        function somos(){
+            window.location.replace("http://127.0.0.1:5500/Apresentacao/index.html")
+        }
+    </script>
+</body>

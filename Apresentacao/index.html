@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Drogaria Assunção</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/DrogariaAssuncao 1.svg" alt="logo">
+        </div>
+        <form>
+            <input type="text" id="buscar" placeholder="O que está procurando hoje?">
+            <img src="../assets/Button.svg" alt="buscar">
+        </form>
+        <div class="icons">
+            <a href="../ImplemetacaoFutura/lojas.html" target="_blanck">
+                <p>Nossas Lojas</p>
+                <img src="../assets/icons8-loja-16 (1).svg" alt="loja">
+            </a>
+            <a href="../ImplemetacaoFutura/cadastro.html" target="_blanck">
+                <p>Entre ou \a cadastre-se</p>
+                <img src="../assets/icons8-pessoa-16.svg" alt="cadastro">
+            </a>
+            <a href="../ImplemetacaoFutura/carrinho.html" target="_blanck">
+                <img src="../assets/icons8-carrinho-16.svg" alt="carrinho">
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="butoes">
+            <div class="info">
+                <button onclick="home()">
+                    <img src="../assets/icons8-estrutural-16.svg" alt="logo-home">
+                </button>
+                <p><b>Home</b></p>
+            </div>
+            <div class="info">
+                <button onclick="sobre()">
+                    <img src="../assets/icons8-loja-16.svg" alt="logo-sobre">
+                </button>
+                <p><b>Sobre</b></p>
+            </div>
+            <div class="info">
+                <a href="https://api.whatsapp.com/send?phone=556198861487&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido." target="_blank" rel="noreferrer">
+                    <img src="../assets/icons8-telefone-desligado-16.svg" alt="logo-contato">
+                </a>
+                <p><b>Contato</b></p>
+            </div>
+            <div class="info"> 
+                <button onclick="produto()">
+                    <img src="../assets/image 2.svg" alt="logo-loja">
+                </button>
+                <p><b>Produtos</b></p>
+            </div>
+        </div>
+        <h2>QUEM SOMOS</h2>
+        <div class="descricao">
+            <div class="sobre-empresa">
+                <img src="../assets/Farmacias-ponto-estrategico-702x459.jpg">
+                <p>
+                    A empresa Drogaria Assuncao, localizada no bairro Ceilandia Sul (Ceilandia), 
+                    em Brasília-DF foi fundada há 2 anos, em 24/06/2021. A atividade principal 
+                    da empresa é Comércio Varejista de Produtos Farmacêuticos, Sem Manipulação de Fórmulas.
+                </p>
+            </div>
+            <div class="sobre-empresa2">
+                <p>
+                    A empresa Drogaria Assuncao, localizada no bairro Ceilandia Sul (Ceilandia), 
+                    em Brasília-DF foi fundada há 2 anos, em 24/06/2021. A atividade principal 
+                    da empresa é Comércio Varejista de Produtos Farmacêuticos, Sem Manipulação de Fórmulas.
+                </p>
+                <p>
+                    A empresa Drogaria Assuncao, localizada no bairro Ceilandia Sul (Ceilandia), 
+                    em Brasília-DF foi fundada há 2 anos, em 24/06/2021. A atividade principal 
+                    da empresa é Comércio Varejista de Produtos Farmacêuticos, Sem Manipulação de Fórmulas.
+                </p>
+                <img src="../assets/medicamentos.jpg">
+            </div>
+            <div class="sobre-empresa3">
+                <img src="../assets/Farmacias-ponto-estrategico-702x459.jpg">
+                <p>
+                    Em 1976, a Farmacotécnica inaugurou a primeira farmácia de manipulação do Distrito Federal, 
+                    e foi uma das pioneiras, no Brasil, em sua área de atuação. Alinhada à alta tecnologia fornecida pelo mercado da saúde, 
+                    contribuiu diretamente para o crescimento do mercado magistral no país. Há mais de 45 anos de serviços prestados com dedicação, compromisso e respeito aos nossos clientes.
+                    <br><br>
+                    Atualmente possui 7 unidades, teleatendimento, laboratórios equipados com tecnologia de ponta (de sólidos, semissólidos e de líquidos, controle de qualidade), 
+                    uma chácara de cultivo de ervas medicinais, 215 colaboradores, experientes e capacitados farmacêuticos especialistas e centro de treinamento próprio, 
+                    onde realizamos cursos de capacitação e treinamento para nossos funcionários e onde também promovemos e apoiamos eventos voltados para a classe médica. 
+                    O compromisso com a precisão no seu trabalho é uma das marcas que fazem da Farmacotécnica uma farmácia confiável, comprometida com a saúde da população.
+                    <br><br>
+                    Possui uma Assessoria Farmacêutica empenhada em importar as novidades magistrais a diversas áreas da saúde, que funciona também como canal de comunicação com os profissionais de saúde, 
+                    oferecendo informações atualizadas sobre fármacos disponíveis no mercado e opções terapêuticas.
+                    <br><br>
+                    Reconhecida nacionalmente pela sua qualidade e serviços inovadores, a farmácia recebeu o prêmio Top Of Mind como marca mais lembrada em farmácia de manipulação por mais de dez vezes consecutivas. 
+                    O seu objetivo maior é dar as melhores opções aos médicos e prescritores de prescrever medicamentos e produtos sob medida e na dose certa para
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script>
+        function home(){
+            window.location.replace("http://127.0.0.1:5500/Empresa/empresa.html")
+        }
+
+        function sobre(){
+            window.location.replace("http://127.0.0.1:5500/Empresa/empresa.html#sobre")
+        }
+
+        function produto(){
+            window.location.replace("http://127.0.0.1:5500/Produtos/produtos.html")
+        }
+    </script>
+</body>
+</html>

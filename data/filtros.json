@@ -1,0 +1,40 @@
+{
+    "categorias": {
+        "label": "Categorias",
+        "options": [
+            "Tarjado",
+            "Genéricos de A-Z",
+            "Analgésico",
+            "Todos de A-Z",
+            "Gripe E Resfriado",
+            "Laxante",
+            "Gastrointestinal",
+            "Relaxante Muscular",
+            "Azia E Má Digestão",
+            "Cuidado Com Os Olhos"
+        ]
+    },
+    "tipoMedicamento": {
+        "label": "Tipos de medicamento",
+        "options": [
+            "Indefinido",
+            "Referência",
+            "Similar",
+            "Genérico"
+        ]
+    },
+    "viaAdministracao": {
+        "label": "Via de administração",
+        "options": [
+            "Uso Tópico",
+            "Via Oral",
+            "Uso Vaginal",
+            "Uso Injetável",
+            "Via Parental",
+            "Via Oftalmológica",
+            "Via Nasal",
+            "Uso Pulmonar",
+            "Via Subcutânea"
+        ]
+    }
+}
